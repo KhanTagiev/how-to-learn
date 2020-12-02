@@ -77,7 +77,11 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   height: 568px;
   width: 568px;
 }
-/* и элемента с модификатором вида ключ-значение */
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -174,21 +178,66 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   width: 250px;
 }
 
-.table__heading{
+.table__heading {
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text{
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.table__text:last-child{
+.table__text:last-child {
   margin-top: 20px;
 }
 
+.feynman {
+  position: relative;
+  min-height: 895px;
+  background-color: #f2f2f2;
+}
 
+.feynman__title {
+  padding-top: 100px;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin:0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  position: relative;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 70px auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+}
