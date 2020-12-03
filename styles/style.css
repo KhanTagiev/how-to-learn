@@ -147,6 +147,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .section-title_theme_dark {
@@ -161,6 +162,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
