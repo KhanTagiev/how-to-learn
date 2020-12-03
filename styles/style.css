@@ -45,7 +45,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  font-style: bold;
+  font-weight: bold;
   margin-left: 64px;
   z-index: 2;
 }
@@ -96,7 +96,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  align-self: centered;
+  align-self: center;
   align-items: flex-start;
 }
 
