@@ -9,7 +9,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
 }
 
 .header {
@@ -287,6 +287,7 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 
 .footer {
   background-color: #1f1f1f;
+  box-sizing: border-box;
   min-height: 350px;
   padding: 60px 0 40px 0;
   color: #fff;
